@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{C111901B-83C2-4778-929F-A12DD4B92706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenReceiptWebApi.DAL", "GreenReceiptWebApi.DAL\GreenReceiptWebApi.DAL.csproj", "{82C1EC8A-CC04-4DFE-957F-20614E71454C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenReceiptWebApi.BLL", "GreenReceiptWebApi.BLL\GreenReceiptWebApi.BLL.csproj", "{08A57BB2-2D81-4CE9-9922-A6F6AD5F8585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenReceiptWebApi.Web", "GreenReceiptWebApi.Web\GreenReceiptWebApi.Web.csproj", "{669519BF-C63B-4B79-AB89-6BD320535E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenReceiptWebApi.UnitTests", "GreenReceiptWebApi.UnitTests\GreenReceiptWebApi.UnitTests.csproj", "{80DA5DB3-FECA-4F98-A0DF-D8AEE76A3819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82C1EC8A-CC04-4DFE-957F-20614E71454C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C1EC8A-CC04-4DFE-957F-20614E71454C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C1EC8A-CC04-4DFE-957F-20614E71454C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C1EC8A-CC04-4DFE-957F-20614E71454C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A57BB2-2D81-4CE9-9922-A6F6AD5F8585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A57BB2-2D81-4CE9-9922-A6F6AD5F8585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A57BB2-2D81-4CE9-9922-A6F6AD5F8585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A57BB2-2D81-4CE9-9922-A6F6AD5F8585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669519BF-C63B-4B79-AB89-6BD320535E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669519BF-C63B-4B79-AB89-6BD320535E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669519BF-C63B-4B79-AB89-6BD320535E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669519BF-C63B-4B79-AB89-6BD320535E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DA5DB3-FECA-4F98-A0DF-D8AEE76A3819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DA5DB3-FECA-4F98-A0DF-D8AEE76A3819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DA5DB3-FECA-4F98-A0DF-D8AEE76A3819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DA5DB3-FECA-4F98-A0DF-D8AEE76A3819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80DA5DB3-FECA-4F98-A0DF-D8AEE76A3819} = {C111901B-83C2-4778-929F-A12DD4B92706}
+	EndGlobalSection
+EndGlobal

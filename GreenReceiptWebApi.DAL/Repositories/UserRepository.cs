@@ -9,5 +9,6 @@ namespace GreenReceiptWebApi.DAL.Repositories
 {
     public class UserRepository : IUserRepository
     {
+
     }
 }

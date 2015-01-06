@@ -44,6 +44,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserServices.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GreenReceiptWebApi.DAL\GreenReceiptWebApi.DAL.csproj">
+      <Project>{82c1ec8a-cc04-4dfe-957f-20614e71454c}</Project>
+      <Name>GreenReceiptWebApi.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
